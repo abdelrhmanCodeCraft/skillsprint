@@ -2,14 +2,6 @@
 
 This project is a web application designed to test your UI design skills through various sections. It also includes a contact section where the submitted data is sent to an API.
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - Various UI sections to test your design abilities.
@@ -25,10 +17,12 @@ This project is a web application designed to test your UI design skills through
 
 1. Clone the repository using Git:
    ```bash
+   git clone https://github.com/yourusername/skillsprint.git
+
 Install dependencies:
 npm install
 
-Running the Project
+Running the Project:
 npm run dev
 
 
