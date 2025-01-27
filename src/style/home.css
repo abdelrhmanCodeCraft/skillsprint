@@ -1,0 +1,275 @@
+
+
+.about-sec{
+    position: relative;
+    color: #FFFFFF;
+    margin-bottom: 10rem;
+}
+
+.about-sec .image {
+    position: absolute;
+    z-index: -10;
+    left: 0;
+    top: 0;
+    
+}
+
+.about-sec .image img{
+    height: fit-content !important;
+    object-fit: contain;
+}
+
+.about-sec .container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 19rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-sec .left{
+    max-width: 536px;
+}
+
+.about-sec .left h1{
+    font-size: 3rem;
+    text-shadow: 2px 2px 30px 4px #464545;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.about-sec .left p{
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.about-sec .left .img{
+    max-width: 40rem ;
+    height: auto;
+}
+
+.about-sec .left .img img{
+    width: 111%;
+    height: auto;
+    padding-right: 2rem;
+}
+
+.about-sec .right{
+    max-width: 464px;
+}
+
+.about-sec .right img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -8;
+}
+
+.about-sec .right h1{
+    text-align: right;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-sec .right p{
+    text-align: right;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .about-sec .right img{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 1143px){
+    .about-sec .container{
+        flex-wrap: wrap ;
+        gap: 4rem;
+    }
+    .about-sec .image img{
+        height: 84rem !important;
+    }
+}
+
+
+@media screen and (max-width: 378px){
+    .about-sec .image img{
+        height: 88rem !important;
+    }
+}
+
+
+
+
+/* ==================================== */
+
+.servies .title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.servies h1{
+    text-align: center;
+    font-size: 3rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.servies .title .line{
+    margin: auto;
+    display: flex;
+    column-gap: 10rem;
+}
+
+@media screen and (max-width: 769px){
+    .servies h1{
+        font-size: 2.5rem;
+    }
+    .servies .title .line{
+        display: none;
+    }
+}
+
+.servies .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.servies .box{
+    width: 335px;
+    margin-top: 3rem;
+    background-color: #FFFFFF;
+    border-radius: 1.7rem ;
+    box-shadow: 2px 2px 10px #cacaca;
+    margin-bottom: 3rem;
+}
+
+.servies .box .image{
+    max-width: 335px;
+    height: auto;
+}
+
+.servies .box .image img{
+    width: 100%;
+    height: auto;
+}
+
+
+.servies .box .box-content{
+    padding: 0 3rem 2rem 2rem;
+}
+
+
+.servies .box h5{
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: black;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.servies .box p{
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 20px;
+}
+
+
+/* ========================================== */
+
+
+
+.testymonials{
+    margin-top: 3rem;
+}
+
+.testymonials .title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.testymonials h1{
+    text-align: center;
+    font-size: 3rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.testymonials .title .line{
+    margin: auto;
+    display: flex;
+    column-gap: 16rem;
+}
+
+.testymonials .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.testymonials .content .box{
+    flex-grow: 1;
+    max-width: 560px;
+    background-color: #FFFFFF;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.testymonials .content .box .body h4{
+    color: var(--primary-color);
+    margin-bottom: 0.6rem;
+}
+
+.testymonials .content .box .body p{
+    color: #22366A;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.testymonials .content .box .body .star{
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 769px) {
+    .testymonials .content .box{
+        flex-wrap: wrap;
+    }
+    .testymonials .content .box .body{
+        text-align: center;
+    }
+    .testymonials h1{
+        font-size: 2.5rem;
+    }
+    .testymonials .title .line{
+        display: none;
+    }
+}
+
+
+
+/* ===================================== */
+
+
+
